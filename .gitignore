@@ -1,0 +1,8 @@
+node_modules
+.idea
+*.iml
+
+config/data/groupAssets.json
+config/data/hashes.txt
+
+config/config.toml

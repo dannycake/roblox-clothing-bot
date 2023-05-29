@@ -1,0 +1,25 @@
+{
+  "name": "attire",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "discord.js": "^14.11.0",
+    "form-data": "^4.0.0",
+    "fuse.js": "^6.6.2",
+    "jimp": "^0.22.8",
+    "superagent": "^8.0.9",
+    "toml": "^3.0.0"
+  }
+}
