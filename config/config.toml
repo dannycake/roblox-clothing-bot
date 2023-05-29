@@ -1,0 +1,35 @@
+[setup]
+# The owner's cookie
+# Only used for payouts, do not use main account
+group_owner_cookie = 'cookie with payout perms in the group'
+# The shirt uploader's cookie
+# Highly likely to get banned, do not use main account
+group_uploader_cookie = 'cookie with upload perms in the group'
+# Group ID to manage
+group_id = 123123123
+
+[clothing]
+# Default price to set new assets to
+default_price = 7
+
+# Include similar assets in the description
+include_similar_items = true
+# Max amount of similar items to incluide
+similar_items_limit = 5
+
+[discord]
+# Discord bot token (https://discord.com/developers/applications)
+bot_token = 'abcde.fghijk.lmnopq'
+# Prefix used for command, e.g. !help
+bot_prefix = '!'
+# Whitelisted user IDs that can use the bot
+whitelisted_users = [
+    '123123123123123'
+]
+
+# Channel ID to send sale notifications to
+sale_notifications_channel = '123123123123123'
+
+[logging]
+# Print messages marked by [DEBUG]
+print_debug = true
