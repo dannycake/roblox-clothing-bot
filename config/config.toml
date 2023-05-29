@@ -14,7 +14,7 @@ default_price = 7
 
 # Include similar assets in the description
 include_similar_items = true
-# Max amount of similar items to incluide
+# Max amount of similar items to include
 similar_items_limit = 5
 
 [discord]
